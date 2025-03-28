@@ -1,13 +1,11 @@
 # Global Assignment
 
 ## 🚀 Project Overview
-This project is a user authentication and management system built with React, Redux Toolkit, and Express.js. It allows users to log in, manage their profiles, and interact with a user list.
+This project is a user authentication and management system built with React, Redux Toolkit. It allows users to log in, manage their profiles, and interact with a user list.
 
 ## 🛠️ Technologies Used
 - **Frontend:** React, Redux Toolkit, Vite, CSS
-- **Backend:** Express.js (if applicable)
 - **State Management:** Redux Toolkit
-- **Authentication:** JWT (if implemented)
 
 ## 📂 Project Structure
 ```
@@ -51,7 +49,7 @@ The application will be available at `http://localhost:5173/` (default Vite port
 
 ## 📜 API Endpoints (Mock API Used)
 - **Login:** `POST https://reqres.in/api/login`
-  - Request: `{ email: 'user@example.com', password: 'password123' }`
+  - Request: `{ email: 'eve.holt@reqres.in', password: 'cityslicka' }`
   - Response: `{ token: 'some-jwt-token' }`
 
 ## 📝 Features
