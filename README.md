@@ -1,12 +1,60 @@
-# React + Vite
+# Global Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Project Overview
+This project is a user authentication and management system built with React, Redux Toolkit, and Express.js. It allows users to log in, manage their profiles, and interact with a user list.
 
-Currently, two official plugins are available:
+## 🛠️ Technologies Used
+- **Frontend:** React, Redux Toolkit, Vite, CSS
+- **Backend:** Express.js (if applicable)
+- **State Management:** Redux Toolkit
+- **Authentication:** JWT (if implemented)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📂 Project Structure
+```
+Global_assignment/
+│── src/
+│   ├── components/        # Reusable UI components
+│   ├── pages/             # Page components (Login, Dashboard, etc.)
+│   ├── reducers/          # Redux slices for state management
+│   ├── assets/            # Static assets like images
+│   ├── App.js             # Main App component
+│── public/
+│── index.html
+│── index-Ce-Y3XlF.js      # Main JavaScript file
+│── index-rrYCE2lv.css     # Main CSS file
+│── vite.config.js         # Vite configuration
+│── package.json           # Project dependencies
+│── README.md              # Project documentation
+```
 
-## Expanding the ESLint configuration
+## 🔧 Installation & Setup
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/11shazam11/Global_assignment.git
+cd Global_assignment
+```
+### 2️⃣ Install Dependencies
+```sh
+npm install
+```
+### 3️⃣ Run the Project
+```sh
+npm run dev
+```
+The application will be available at `http://localhost:5173/` (default Vite port).
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔑 Authentication Flow
+1. User enters credentials and submits the login form.
+2. The credentials are sent to `https://reqres.in/api/login` (for testing purposes).
+3. On successful login, a token is stored in `localStorage`.
+4. If authentication fails, an error message is displayed.
+
+## 📜 API Endpoints (Mock API Used)
+- **Login:** `POST https://reqres.in/api/login`
+  - Request: `{ email: 'user@example.com', password: 'password123' }`
+  - Response: `{ token: 'some-jwt-token' }`
+
+## 📝 Features
+✅ User Login & Authentication  
+✅ Redux State Management  
+✅ Responsive Design  
