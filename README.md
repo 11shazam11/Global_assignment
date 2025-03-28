@@ -1,11 +1,13 @@
 # Global Assignment
 
 ## 🚀 Project Overview
-This project is a user authentication and management system built with React, Redux Toolkit. It allows users to log in, manage their profiles, and interact with a user list.
+This project is a user authentication and management system built with React, Redux Toolkit,React Router. It allows users to log in, manage their profiles, and interact with a user list.
 
 ## 🛠️ Technologies Used
 - **Frontend:** React, Redux Toolkit, Vite, CSS
 - **State Management:** Redux Toolkit
+- **Navigation:** React Router DOM
+- **Notification:** Notiostack (SnackBar)
 
 ## 📂 Project Structure
 ```
